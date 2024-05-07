@@ -1,0 +1,38 @@
+{
+  "name": "kingshoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server",
+    "start": "nodemon arr.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bson": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.0.0",
+    "mongoose-aggregate-paginate": "^2.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.0.2",
+    "passport": "^0.7.0",
+    "underscore": "^1.13.6",
+    "underscore.string": "^3.3.6",
+    "useragent": "^2.3.0"
+  }
+}
